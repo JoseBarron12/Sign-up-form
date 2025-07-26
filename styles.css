@@ -16,10 +16,10 @@ body {
     width: 100vw;
 }
 
-sidebar-image {
+.sidebar-image {
     width: 25vw;
 }
 
-login {
+.login {
     width: 75vw;
 }
