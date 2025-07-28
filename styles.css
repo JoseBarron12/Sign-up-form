@@ -56,7 +56,24 @@ body {
 .login-form {
     height: 80%;
     background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+.login-form > fieldset {
+    border: none;
+    margin-bottom: 15px;
+    height: calc(100% - 15px);
+    background-color: red;
+    
+}
+
+.login-form > button {
+    height: 3rem;
+    width: 15rem
+}
+
 
 .login-footer {
     background-color: aqua;
