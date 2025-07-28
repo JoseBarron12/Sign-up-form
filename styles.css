@@ -150,6 +150,8 @@ input:focus{
     border: solid 2px var(--main-text-color);
 }
 
+
+
 .login-form > fieldset > div > div:focus {
     color: var(--main-text-color);
     box-shadow: 3px 3px 5px rgb(0, 0, 0);
