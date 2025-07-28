@@ -38,3 +38,7 @@ body {
     gap: 15px;
 }
 
+.login-form {
+    height: 50vh;
+    
+}
