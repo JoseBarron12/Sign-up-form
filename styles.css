@@ -9,7 +9,7 @@
 
 :root {
     --main-background-color: #141414;
-    --secondary-color: #0a0a0a;
+    --secondary-color: #969696;
     --main-font-size: 1.5rem;
     --secondary-font-size: 1.3rem;
     --main-text-color: whitesmoke;
@@ -66,6 +66,8 @@ body {
     font-size: var(--main-font-size);
     gap: 15px;
     color: var(--main-text-color);
+    border-bottom: 1px solid rgb(36, 35, 35);
+    padding-bottom: 1rem;
 }
 
 .login-header > img {
@@ -125,9 +127,10 @@ label {
 
 input {
     height: 2rem;
-    border-radius: 5px;
-    border: solid 1px #969696;
-    background-color: var();
+    border-radius: 4px;
+    border: solid 2px var(--secondary-color);
+    color: var(--main-text-color);
+    background:none;
 }
 
 
