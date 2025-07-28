@@ -6,6 +6,12 @@
     font-style: normal;
 
 }
+
+:root {
+    --main-background-color: #0a0a0a;
+    --secondary-color: #242424;
+
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -15,7 +21,7 @@ body {
     height: 100vh;
     width: 100vw;
     display: flex;
-    background-color: red;
+    background-color: var(--main-background-color);
 }
 
 .sidebar-image {
@@ -36,9 +42,20 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-header {
+
 }
 
 .login-form {
-    height: 50vh;
-    
+    height: 60%;
+    width: 100%;
+    background-color: var(--secondary-color);
+}
+
+.login-footer {
+
 }
