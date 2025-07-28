@@ -139,6 +139,7 @@ input {
 
 input:hover {
     border: solid 1px var(--main-text-color);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
 .login-form > fieldset > div > div:hover {
     color: var(--main-text-color);
@@ -151,6 +152,7 @@ input:focus{
 
 .login-form > fieldset > div > div:focus {
     color: var(--main-text-color);
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
 
 
@@ -169,6 +171,7 @@ input:focus{
 
 .login-form > button:hover {
     scale: 1.05;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
 
 
