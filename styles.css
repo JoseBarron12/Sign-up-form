@@ -42,7 +42,7 @@ body {
     width: 60%;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
     justify-content: center;
     background-color: var(--main-background-color);
     padding: 1rem;
@@ -56,11 +56,9 @@ body {
 
 
 .login-form {
-
     background-color: var(--main-background-color);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .login-form > fieldset {
@@ -70,7 +68,7 @@ body {
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
     padding-bottom: 25px;
 }
 
@@ -85,15 +83,15 @@ body {
 .login-form > fieldset > div{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 5rem;
-    padding-left: 15px;
 }
 
 .login-form > fieldset > div > div {
     display: flex;
     flex-direction: column;
-    width: calc(50% - 5rem - 15px);
-
+    gap: 0.25rem;
+    width: calc(50% - 5rem);
 }
 
 .user-name {
