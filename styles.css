@@ -13,6 +13,7 @@
     --main-font-size: 1.5rem;
     --secondary-font-size: 1.3rem;
     --main-text-color: whitesmoke;
+    --accent-color:#8685ef;
 }
 *{
     box-sizing: border-box;
@@ -55,8 +56,10 @@ body {
     margin: 1rem;
     background-color: var(--main-background-color);
     border-radius: 15px;
-    padding: 1rem
+    padding: 1rem;
+    border: solid 2px var(--accent-color);
 }
+
 
 .login-header {
     display: flex;
@@ -99,7 +102,7 @@ body {
     top: -5px;
     align-self: center;
     font-size: var(--secondary-font-size);
-    color: var(--main-text-color);
+    color: var(--accent-color);
 }
 
 .login-form > fieldset > div{
@@ -114,7 +117,8 @@ body {
     flex-direction: column;
     gap: 0.25rem;
     width: calc(50% - 5rem);
-    color: var(--main-text-color);
+    color: var(--secondary-color);
+    font-weight: bold;
 }
 
 .user-name {
@@ -128,9 +132,25 @@ label {
 input {
     height: 2rem;
     border-radius: 4px;
-    border: solid 2px var(--secondary-color);
+    border: solid 1px var(--secondary-color);
     color: var(--main-text-color);
     background:none;
+}
+
+input:hover {
+    border: solid 1px var(--main-text-color);
+}
+.login-form > fieldset > div > div:hover {
+    color: var(--main-text-color);
+}
+
+
+input:focus{
+    border: solid 2px var(--main-text-color);
+}
+
+.login-form > fieldset > div > div:focus {
+    color: var(--main-text-color);
 }
 
 
@@ -139,12 +159,16 @@ input {
     align-self: center;
     width: calc(100% - 5rem + 0.25rem);
     font-size: var(--secondary-font-size);
-    background-color: var(--secondary-color);
+    background-color: var(--accent-color);
     border: none;
     border-radius: 25px;
     font-size: 1rem;
     color: var(--main-background-color);
     font-weight: bold;
+}
+
+.login-form > button:hover {
+    scale: 1.05;
 }
 
 
@@ -157,6 +181,10 @@ input {
 a, a:visited {
     color: var(--secondary-color);
     text-decoration: underline;
+}
+
+a:hover {
+    color: var(--accent-color);
 }
 
 
