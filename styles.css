@@ -118,7 +118,7 @@ body {
 }
 
 .user-name {
-    margin-top: calc(20px + 3rem);
+    margin-top: calc(20px + 2rem);
 }
 
 label {
@@ -139,11 +139,25 @@ input {
     align-self: center;
     width: calc(100% - 5rem + 0.25rem);
     font-size: var(--secondary-font-size);
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    color: var(--main-background-color);
+    font-weight: bold;
 }
 
 
 .login-footer {
     font-size: var(--secondary-font-size);
     text-align: center;
+    color: var(--main-text-color);
+    font-size: 1.2rem;
 }
+a, a:visited {
+    color: var(--secondary-color);
+    text-decoration: underline;
+}
+
+
 
