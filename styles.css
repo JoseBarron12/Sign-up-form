@@ -159,6 +159,17 @@ input::placeholder {
     box-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
 
+input:user-valid
+{
+    border-color: #00c896;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+input:user-invalid
+{
+    border-color: red;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+}
+
 input:required:user-invalid{
     border-color: red;
     box-shadow: 3px 3px 5px rgb(0, 0, 0);
