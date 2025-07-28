@@ -10,6 +10,8 @@
 :root {
     --main-background-color: #0a0a0a;
     --secondary-color: #242424;
+    --main-font-size: 1.5rem;
+    --secondary-font-size: 1.3rem;
 
 }
 *{
@@ -48,13 +50,16 @@ body {
     padding: 1rem;
 }
 
+
 .login-header {
     background-color: red;
     text-align: center;
+    font-size: var(--main-font-size);
 }
 
+
 .login-form {
-    height: 80%;
+    height: 50%;
     background-color: var(--main-background-color);
     display: flex;
     flex-direction: column;
@@ -76,7 +81,10 @@ body {
 
 .login-form > fieldset > legend {
     position: absolute;
-    opacity: 0;
+    opacity: 100;
+    top: 15px;
+    align-self: center;
+    font-size: var(--secondary-font-size);
 }
 
 .login-form > fieldset > div{
@@ -86,23 +94,26 @@ body {
     height: calc(100% / 3);
     flex-wrap: wrap;
     gap: 50px;
-
 }
+
 .login-form > fieldset > div > div {
     display: flex;
     flex-direction: column;
     width: 15rem;
-    
 }
 
-
-
+.user-name {
+    margin-top: 3rem;
+}
 
 .login-form > button {
     height: 3rem;
+    font-size: var(--secondary-font-size);
 }
 
 
 .login-footer {
     background-color: aqua;
+    font-size: var(--secondary-font-size);
 }
+
