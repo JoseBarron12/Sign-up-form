@@ -12,7 +12,6 @@
     --secondary-color: #242424;
     --main-font-size: 1.5rem;
     --secondary-font-size: 1.3rem;
-
 }
 *{
     box-sizing: border-box;
@@ -30,7 +29,6 @@ body {
 
 .sidebar-image {
     width: 40%;
-    background-color: blue;
 }
 
 .sidebar-image > img {
@@ -52,14 +50,13 @@ body {
 
 
 .login-header {
-    background-color: red;
     text-align: center;
     font-size: var(--main-font-size);
 }
 
 
 .login-form {
-    height: 50%;
+
     background-color: var(--main-background-color);
     display: flex;
     flex-direction: column;
@@ -69,14 +66,12 @@ body {
 .login-form > fieldset {
     border: none;
     margin-bottom: 15px;
-    height: calc(100% - 15px);
-    background-color: red;
     background-color: var(--secondary-color);
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 .login-form > fieldset > legend {
@@ -90,21 +85,29 @@ body {
 .login-form > fieldset > div{
     display: flex;
     flex-direction: row;
-    background-color: blue;
-    height: calc(100% / 3);
-    flex-wrap: wrap;
-    gap: 50px;
+    gap: 5rem;
+    padding-left: 15px;
 }
 
 .login-form > fieldset > div > div {
     display: flex;
     flex-direction: column;
-    width: 15rem;
+    width: calc(50% - 5rem - 15px);
+
 }
 
 .user-name {
     margin-top: 3rem;
 }
+
+label {
+    font-size: 0.9rem;
+}
+
+input {
+    height: 2rem;
+}
+
 
 .login-form > button {
     height: 3rem;
@@ -113,7 +116,7 @@ body {
 
 
 .login-footer {
-    background-color: aqua;
     font-size: var(--secondary-font-size);
+    text-align: center;
 }
 
