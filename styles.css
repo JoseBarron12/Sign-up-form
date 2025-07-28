@@ -58,6 +58,8 @@ body {
     border-radius: 15px;
     padding: 1rem;
     border: solid 2px var(--accent-color);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 
