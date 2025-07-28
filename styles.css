@@ -42,7 +42,7 @@ body {
     width: 60%;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 15px;
     justify-content: center;
     background-color: var(--main-background-color);
     padding: 1rem;
@@ -59,17 +59,17 @@ body {
     background-color: var(--main-background-color);
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .login-form > fieldset {
     border: none;
-    margin-bottom: 15px;
     background-color: var(--secondary-color);
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 25px;
-    padding-bottom: 25px;
+    padding-bottom: 3rem;
 }
 
 .login-form > fieldset > legend {
@@ -95,7 +95,7 @@ body {
 }
 
 .user-name {
-    margin-top: 3rem;
+    margin-top: calc(20px + 3rem);
 }
 
 label {
@@ -109,6 +109,8 @@ input {
 
 .login-form > button {
     height: 3rem;
+    align-self: center;
+    width: calc(100% - 5rem + 0.25rem);
     font-size: var(--secondary-font-size);
 }
 
